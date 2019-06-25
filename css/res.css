@@ -1,0 +1,1202 @@
+/*Desktop */
+
+@media only screen and (min-width:1311px) and (max-width:1472px) {
+    .company-logo,.about .company-logo {
+        margin-left: 100px;
+        margin-right: 246px;
+    }
+	
+	   .banner-index-content{
+        margin-left:100px;
+    }
+	
+	.banner-index-right-bg{
+		right:116px;
+		
+	}
+}
+
+@media only screen and (min-width:1024px) and (max-width:1140px) {
+}
+
+
+
+@media only screen and  (max-width:1023px) {
+		.banner-index-right-bg,.banner-index-row{
+		display:none;
+	}
+	
+}
+
+@media only screen and (min-width:1400px) and (max-width:1800px) {
+
+	.banner-index-right-bg{
+		right:80px;
+		
+	}
+	
+}
+/*Desktop */
+
+@media only screen and (min-width:780px) and (max-width:1311px) {
+
+    .company-logo,.about .company-logo {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+	
+	   .banner-index-content{
+        margin-left:100px;
+    }
+
+		.banner-index-right-bg{
+		right:0;
+		
+	}
+	
+	}
+
+
+/*ipad*/
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+.mt0-sm-xs{
+		margin-top:0px !important;
+	}
+	
+	.mt0-sm-mt30-xs{
+		margin-top:0px;
+	}
+
+.pc-left-other-center{
+text-align:center !important;
+}
+
+.mynavbar .dropdown-menu {
+    padding: 0px 0px 0px 0px;
+}
+
+.banner-p {
+    text-align: center;
+    width: 100%;
+}
+	.banner-index-padding{
+    margin-top: 0px;
+    height: 100%;
+    background:none;
+	}
+	
+	
+	
+.banner-index-h1{
+	text-align:center !important;
+}
+
+
+
+.baner-index-content-button-padding{
+    display: table;
+    margin: 0 auto;
+}
+	
+	
+    /*设置移动端页首背景显示*/
+
+    /* 减少navbar间距*/
+    .mynavbar .navbar-nav>li {
+        padding-left: 0px;
+    }
+
+ .banner-index {
+    background: rgb(26,143,246);
+    min-height: 615px;
+  
+}
+
+    .about {
+        background: url("../images/about-bg.jpg");
+        min-height: 334px;
+        max-width: 100%
+    }
+
+    .news {
+        background: url("../images/news-bg.jpg");
+    ;
+        min-height: 234px;
+        max-width: 100%
+    }
+
+    .example {
+        background: url("../images/example-bg.jpg");
+    ;
+        min-height: 304px;
+        max-width: 100%
+    }
+
+    .service {
+        background: url("../images/service-bg.jpg");
+    ;
+        min-height: 304px;
+        max-width: 100%
+    }
+    /*设置移动端页首背景显示*/
+
+    /*设置移动端字体文本 大小及位置*/
+	.index-content-p {
+		margin:0 auto;
+	}
+	
+    .banner-index h1,.container h1,.about-content h1,.about-content h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .banner-index-content p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .banner-index-content h2 {
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .banner-index-production h1 {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .container h1,h2,h4,p,.banner-index-content h1,h2,p,button,.col-md-3,.banner-index-content,.website_footer1 .col-md-2, p,.communication_content h1 {
+        text-align: center;
+    }
+
+    .communication_icon .col-md-2 .box1 p {
+        margin-left: 0px;
+        padding-top: 10px;
+        font-color: white;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .communication_icon .col-md-2 .box2 p {
+        margin-left: 0px;
+        padding-top: 10px;
+        font-color: white;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .communication_icon .col-md-2 .box3 p {
+        margin-left: 0px;
+        padding-top: 10px;
+        font-color: white;
+        font-size: 16px;
+        text-align: center;
+    }
+    /*设置移动端字体 大小及位置*/
+	
+.service-phone-padding {
+	padding-bottom:35px;
+}
+
+
+.service-h5-phone-gray {
+    width: 50%;
+    margin: 0 auto;	
+}
+
+.service-h5-phone-gray img,.service-h5-phone-white img {
+    width: 355px;
+    height: auto;
+    margin-top: 130px;
+    margin-left: 28px;
+}
+	
+	.service-phone-padding p{
+	text-align:center;
+}
+	
+	
+    .service .btn {
+        display: none;
+    }
+
+    .banner-index-production {
+        min-height: 150px;
+    }
+
+     .company-logo,.about .company-logo {
+        margin-left: 0px;
+        margin-right: 50px;
+    }
+
+    .banner-index-content,.about-content {
+        padding-top: 10px;
+    }
+
+    /*开始案例*/
+    .example-content-tab {
+        padding-top: 10px;
+    }
+
+    .example-content-tab-row {
+        padding-top: 20px;
+        margin-left: 0%;
+    }
+
+    .example-content-tab-row a {
+        padding-left: 20px;
+        color: black;
+    }
+
+    .example-h5-img img {
+        padding: 20px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .example-content-pagination {
+        padding-left: 13.3%;
+    }
+
+    /*结束案例*/
+
+
+    .banner-index-production-img {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 50px;
+    }
+
+    .banner-index-content-service {
+        padding-top: 0;
+    }
+
+    .banner-index-content-service p {
+        /*height: 80px;*/
+    }
+
+    .banner-index-content-service .col-md-3 {
+        padding-top: 16px;
+    }
+
+    .banner-index-content-service h4 {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+
+
+    /*业务介绍*/
+    .banner-index-content-communication {
+        min-height: 100%;
+    }
+
+  .banner-index-content-communication p {
+    text-align:center;
+}
+
+    .service-example-img img {
+        padding-right: 0px;
+        padding-top: 10px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    /*怎样合作样式*/
+    .communication {
+        background-color: rgb(243,247,248);
+        min-height: 300px;
+    }
+
+    .communication_content p {
+        color: black;
+        margin-left: 20%;
+        padding-top: 20px;
+    }
+
+    .communication_icon {
+        padding-top: 35px;
+    }
+
+    .communication_content {
+        padding-top: 30px;
+    }
+
+    .about-content .service-button {
+        color: white;
+        border: 1px white solid;
+        text-align: center;
+        padding: 10px 30px 10px 30px;
+        background-color: transparent;
+        /*margin-left: 40.3%; */
+    }
+
+    .button-phone {
+        margin-top: 20px;
+    }
+
+    /*新闻*/
+    .news-airticle {
+        margin-left: 3.3%;
+    }
+
+    .news-airticle-title-tag h4,p {
+        text-align: left;
+    }
+
+    .news-airticle-content p {
+        width: 300px;
+    }
+
+	
+	.website_footer2 {
+    padding: 10px 0 0 10px;
+	}
+	
+    /*
+    常见问题字体排布
+     */
+    .banner-index-question-content h4 {
+        text-align: left;
+    }
+
+  
+
+    .container.service-h5-content p {
+        text-align: center;
+    }
+}
+
+/*mobile phone*/
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+	
+	.mt50-xs{
+		  margin-top:50px !important;
+	}
+	
+		.ml15mr15-xs{
+		margin-left:15px;
+		margin-right:15px;
+	}
+	
+	.add-service-button-black,.add-service-button-blue{
+	   display: table;
+	   margin: 0 auto;
+}
+
+.pc-left-other-center{
+text-align:center !important;
+}
+
+.banner-p {
+    text-align: center;
+    width: 100%;
+}
+	.banner-index-padding{
+    margin-top: 0px;
+    height: 100%;
+    background:none;
+	}
+	
+	
+	.banner-index-h1{
+	text-align:center !important;
+}
+
+	.pull-right-setting{
+		float:none !important;
+	}
+	
+.baner-index-content-button-padding{
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+	
+.production-media {
+    padding-bottom: 35px;
+    text-align:center;
+}
+
+	.baner-index-content-button-communication,.baner-index-content-button-communication-wecat{
+		margin-right:0px;
+		min-width: 140px;
+	}
+
+
+    /*设置移动端页首背景显示*/
+
+	
+	
+	
+	
+    /* 减少navbar间距*/
+    .mynavbar .navbar-nav>li {
+        padding-left: 0px;
+    }
+
+    .banner-index {
+        background: rgb(26,143,246);
+        min-height: 364px;
+    }
+
+    .about {
+        background: url("../images/about-bg.jpg");
+        min-height: 334px;
+        max-width: 100%
+    }
+
+    .news {
+        background: url("../images/news-bg.jpg");
+    ;
+        min-height: 234px;
+        max-width: 100%
+    }
+
+    .example {
+        background: url("../images/example-bg.jpg");
+    ;
+        min-height: 294px;
+        max-width: 100%
+    }
+
+    .service {
+        background: url("../images/service-bg.jpg");
+    ;
+        min-height: 294px;
+        max-width: 100%
+    }
+
+    .example-category {
+        background-color: #fff;
+        min-height: 100%;
+    }
+    /*设置移动端页首背景显示*/
+
+    /*设置移动端字体文本 大小及位置*/
+	.index-content-p {
+			margin:0 auto;
+		}
+    .banner-index h1,.container h1,.about-content h1,.about-content h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .about-communication {
+        text-align: center !important;
+    }
+
+    .about-content h3 {
+        font-size: 20px;
+        margin-top: -5px;
+    }
+
+    .banner-index-content h2 {
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .banner-index-production h1 {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .container h1,h2,h4,p,.banner-index-content h1,h2,p,button,.col-md-3,.banner-index-content,.website_footer1 .col-md-2, p,.communication_content h1 {
+        text-align: center;
+    }
+
+    .communication_icon .col-md-2 .box1 p {
+        margin-left: 0px;
+        padding-top: 10px;
+        font-color: white;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .communication_icon .col-md-2 .box2 p {
+        margin-left: 0px;
+        padding-top: 10px;
+        font-color: white;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .communication_icon .col-md-2 .box3 p {
+        margin-left: 0px;
+        padding-top: 10px;
+        font-color: white;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /*
+    常见问题字体排布
+     */
+    .banner-index-question-content h4 {
+        text-align: left;
+    }
+
+   
+    /*设置移动端字体 大小及位置*/
+
+    .service .btn {
+        display: none;
+    }
+
+    .banner-index-production {
+        min-height: 120px;
+    }
+
+    .company-logo,.about .company-logo {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .banner-index-content,.about-content {
+        padding-top: 10px;
+        margin-left: 0px;
+        margin-right: 0px
+    }
+
+    /*开始案例*/
+    .example-content-tab {
+        padding-top: 10px;
+    }
+
+    .example-content-tab-row {
+        padding-top: 10px;
+        margin-left: 0%;
+    }
+
+    .example-content-tab-row a {
+        padding-left: 20px;
+        color: black;
+    }
+
+    .example-h5-img img {
+        padding: 20px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .example-content-pagination {
+        padding-left: 13.3%;
+    }
+
+    /*结束案例*/
+
+
+    .banner-index-production-img {
+        float: none;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 30px;
+    }
+
+    .baner-index-production-img-bg,.baner-index-production-img-wrap {
+        display: none;
+    }
+
+    .banner-index-content-service {
+        padding-top: 0px;
+    }
+
+    .banner-index-content-service .col-md-3 {
+        padding-top: 36px;
+    }
+
+    .banner-index-content-service h4 {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+
+    /*业务介绍*/
+    .banner-index-content-communication {
+        min-height: 100%;
+    }
+
+    .responsive-bg {
+        width: 53.3%;
+        margin-left: 13.3%;
+    }
+
+    .service-example-img img {
+        padding-right: 0px;
+        padding-top: 10px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+
+
+    /*怎样合作样式*/
+    .communication {
+        background-color: rgb(243,247,248);
+        min-height: 300px;
+    }
+
+    .communication_content p {
+        color: black;
+    }
+
+    .communication_icon {
+        padding-top: 5px;
+    }
+
+    .communication_content {
+        padding-top: 30px;
+    }
+
+    .about-content .service-button {
+        color: white;
+        border: 1px white solid;
+        text-align: center;
+        padding: 10px 30px 10px 30px;
+        background-color: transparent;
+        /*margin-left: 30.3%; */
+    }
+
+    .about-icon-padding {
+        padding-bottom: 35px;
+    }
+
+    .button-phone {
+        margin-top: 20px;
+    }
+
+    /*新闻*/
+    .news-airticle {
+        margin-left: 3.3%;
+    }
+
+    .website_footer2  ul {
+        padding-left: 0px;
+        padding-top: 15px;
+    }
+
+    .website_footer2 {
+        padding: 10px 0px 0px 0px;
+        background-color: rgb(50,54,57);
+        height: 100%;
+    }
+
+    .website_footer2-container {
+        margin-top: -50px;
+    }
+
+    .website_footer2 p {
+        text-align: left;
+        color: white;
+        margin-left: 0px;
+    }
+
+    .back-top {
+        display: none;
+    }
+
+    .website_footer2 img {
+        margin-left: 6px;
+    }
+
+    .website_footer2 .footer-wechat {
+    color: white;
+    text-align: center !important;
+    width: 100%;
+    }
+
+    .website_footer2_wechat {
+        text-align: center;
+    }
+
+
+
+    /*
+    新闻列表
+    */
+    .news-airticle-content {
+        padding-top: 200px;
+        padding-bottom: 25px;
+    }
+
+    .news-airticle-img {
+        margin-top: -250px;
+        width: 100%;
+    }
+
+    .news-airticle-img img {
+        max-height: 180px;
+        width: 100%;
+    }
+
+    .news-airticle-title-tag {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    .news-single-img {
+        padding-top: 20px;
+    }
+}
+
+/*mobile phone*/
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-width:320px) and (max-width:479px) {
+	
+	
+	.mt20-xs{
+	   margin-top:20px !important;
+	}
+	
+	.mt50-xs{
+		  margin-top:50px !important;
+	}
+	
+	.ml15mr15-xs{
+		margin-left:15px;
+		margin-right:15px;
+	}
+	
+	.mt0-sm-mt30-xs{
+		margin-top:30px;
+	}
+	
+	.mt0-sm-xs{
+		margin-top:0px !important;
+	}
+	/*
+	首页新加样式
+	*/
+	.add-service-button-black,.add-service-button-blue{
+	   display: table;
+	   margin: 0 auto;
+}
+	
+.pc-left-other-center{
+text-align:center !important;
+}
+		.pull-right-setting{
+		float:none !important;
+	}
+	
+	.banner-p {
+    text-align: center;
+    width: 100%;
+}
+	.banner-index-padding{
+    margin-top: 0px;
+    height: 100%;
+    background:none;
+	}
+	
+	.container .p-content {
+    width: 100%;
+}
+	
+.banner-index-h1{
+	text-align:center !important;
+}
+
+.baner-index-content-button-padding{
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+	
+
+	
+	.production-media{
+	padding-bottom:20px;
+}
+	
+	.index-content-p{
+		 width:100%;
+	}
+	
+	.col-xs-11 {
+		width: 100%;
+	}
+	
+    .mobile_hide {
+        display: none;
+    }
+
+    .max-img-media {
+       max-width: 100%;
+	   margin: 0 auto;
+    }
+    /*设置移动端页首背景显示*/
+
+    /* 减少navbar间距*/
+    .mynavbar .navbar-nav>li {
+        padding-left: 0px;
+    }
+
+    .banner-index {
+        background: rgb(26,143,246);
+        min-height: 414px;
+    }
+
+    .about {
+        background: url("../images/about-bg.jpg");
+        min-height: 334px;
+        max-width: 100%
+    }
+
+    .news {
+        background: url("../images/news-bg.jpg");
+    ;
+        min-height: 234px;
+        max-width: 100%
+    }
+
+    .example {
+        background: url("../images/example-bg.jpg");
+    ;
+        min-height: 294px;
+        max-width: 100%
+    }
+
+    .service {
+        background: url("../images/service-bg.jpg");
+    ;
+        min-height: 294px;
+        max-width: 100%
+    }
+
+    .example-category {
+        background-color: #fff;
+        min-height: 100%;
+    }
+    /*设置移动端页首背景显示*/
+
+    /*设置移动端字体文本 大小及位置*/
+	.baner-index-content-button-communication ,.baner-index-content-button-communication-wechat{
+		margin-right:0px;
+		min-width: 140px;
+	}
+    .banner-index h1,.container h1,.about-content h1,.about-content h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .about-communication {
+        text-align: center !important;
+    }
+
+    .about-content h3 {
+        font-size: 20px;
+        margin-top: -5px;
+    }
+/*
+    .banner-index-production-img-box img {
+        display: block;
+        width: 100%;
+        height: 199px;
+    }
+	*/
+
+    .banner-index-content h2 {
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .banner-index-production h1 {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .container h1,h2,h4,p,.banner-index-content h1,h2,p,button,.col-md-3,.banner-index-content,.website_footer1 .col-md-2, p,.communication_content h1 {
+        text-align: center;
+    }
+
+    .communication_icon .col-md-2 .box1 p {
+        margin-left: 0px;
+        padding-top: 10px;
+        font-color: white;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .communication_icon .col-md-2 .box2 p {
+        margin-left: 0px;
+        padding-top: 10px;
+        font-color: white;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .communication_icon .col-md-2 .box3 p {
+        margin-left: 0px;
+        padding-top: 10px;
+        font-color: white;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /*
+    常见问题字体排布
+     */
+    .banner-index-question-content h4 {
+        text-align: left;
+        word-wrap: break-word;
+        word-break: normal;
+		width: 232px;
+    }
+
+  
+    /*设置移动端字体 大小及位置*/
+
+    .service .btn {
+        display: none;
+    }
+
+    .banner-index-production {
+        min-height: 120px;
+    }
+
+    .company-logo,.about .company-logo {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .banner-index-content,.about-content {
+        padding-top: 10px;
+        margin-left: 0px;
+        margin-right: 0px
+    }
+
+	
+	
+	
+	
+    /*开始案例*/
+    .example-content-tab {
+        padding-top: 10px;
+    }
+
+    .example-content-tab-row {
+        padding-top: 20px;
+        margin-left: 0%;
+    }
+
+    .example-h5-img img {
+        padding: 20px 0px 0px 0px;
+        width: 100%;
+    }
+
+	
+	
+	.example-content-pc-num-fuhao {
+  
+    left: 23%;
+}
+	
+    .example-content-pagination {
+        padding-left: 13.3%;
+    }
+
+    .tag-active {
+        box-shadow: 0 3px 3px rgb(213,218,220);
+        color: white !important;
+        padding: 2px 15px;
+    }
+
+    .service-h5-phone-gray img, .service-h5-phone-white img {
+        width: 90%;
+        height: auto;
+        margin-top: 56px;
+        margin-left: 10px;
+    }
+    /*结束案例*/
+
+
+    .banner-index-production-img-box {
+        float: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .baner-index-production-img-bg,.baner-index-production-img-wrap {
+        display: none;
+    }
+
+    .banner-index-content-service {
+        padding-top: 0px;
+    }
+
+    .banner-index-content-service .col-md-3 {
+        padding-top: 36px;
+    }
+
+    .banner-index-content-service h4 {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+
+
+
+    /*业务介绍*/
+    .banner-index-content-communication {
+        min-height: 100%;
+    }
+
+    .responsive-bg {
+        width: 53.3%;
+        margin-left: 13.3%;
+    }
+
+    .service-row-padding {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .service-example {
+        height: 100%;
+    }
+
+    .service-example-img img {
+        padding-right: 0px;
+        padding-top: 10px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .service-h5-phone-gray {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .service-phone-padding {
+        padding-top: 25px;
+    }
+    /*怎样合作样式*/
+    .communication {
+        background-color: rgb(243,247,248);
+        min-height: 300px;
+		    width: auto;
+    }
+
+    .communication_content p {
+        color: black;
+    }
+
+    .communication_icon {
+        padding-top: 5px;
+    }
+
+    .communication_content {
+        padding-top: 30px;
+    }
+
+    .about-content .service-button {
+        color: white;
+        border: 1px white solid;
+        text-align: center;
+        padding: 10px 30px 10px 30px;
+        background-color: transparent;
+        /*margin-left: 30.3%; */
+    }
+
+    .about-icon-padding {
+        padding-bottom: 35px;
+    }
+
+	
+	#OurBaiduMap{
+		height:300px;
+}
+    .button-phone {
+        margin-top: 20px;
+    }
+
+    /*新闻*/
+    .news-airticle {
+        margin-left: 3.3%;
+    }
+
+
+
+
+
+    .website_footer2  ul {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .website_footer2 {
+        padding: 10px 0px 0px 0px;
+        background-color: rgb(50,54,57);
+        height: 100%;
+    }
+
+    .website_footer2-container {
+        margin-top: -50px;
+    }
+
+    .website_footer2 p {
+        text-align: left;
+        color: white;
+        margin-left: 0px;
+		margin-top:-18px;
+    }
+
+    .back-top {
+        display: none;
+    }
+
+    .website_footer2 img {
+        margin-left: 0px;
+    }
+
+    .website_footer2 .footer-wechat {
+        margin-left: 0px;
+        color: white;
+        text-align: center !important;
+		width:100%;
+    }
+
+    .website_footer2_wechat {
+        text-align: center;
+    }
+
+
+
+    /*
+    新闻列表
+    */
+    .news-airticle-content {
+        padding-top: 200px;
+        padding-bottom: 25px;
+    }
+
+    .news-airticle-img {
+        margin-top: -250px;
+        width: 100%;
+    }
+
+    .news-airticle-img img {
+        max-height: 180px;
+        width: 100%;
+    }
+
+    .news-airticle-title-tag {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    .news-single-img {
+        padding-top: 20px;
+    }
+
+    .news-fenye {
+        height: 30px;
+        line-height: 28px;
+    }
+	
+	.news-single-title p,.tab-content p {
+    text-align: left;
+	}
+}

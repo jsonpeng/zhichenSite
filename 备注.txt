@@ -1,0 +1,140 @@
+page-service.php隐藏价格代码:
+<!--合理透明的价格体系-->
+<div class="service-paid">
+<div class="container"> 
+  <div class="mt50 mb20 wow fadeInUp">
+   <h1>合理透明的价格体系</h1>
+    <p style="
+    text-align: center;
+    font-size: 16px;
+">我们努力将所有的精力放在为顾客提供更好的服务上，为了减少商务沟通对双方工作的干扰，我们将所有服务明码标价，供您参考。我们只拿该拿的报酬，绝不坑蒙拐骗，绝不后期坐地起价</p>
+  </div>
+
+  <div class="example-content-tab wow fadeInUp">
+<ul id="myTab" class="nav nav-tabs">
+  <li class="dropdown" >
+    <a href="#function"  class="dropdown-toggle"  data-toggle="tab">
+  页面制作
+    </a>
+  </li>
+  <li class="dropdown" ><a href="#hardwave" class="dropdown-toggle"  data-toggle="tab">功能定制</a></li>
+  <li class="dropdown">
+    <a href="#count-service"  class="dropdown-toggle" 
+       data-toggle="tab">服务器硬件
+    </a>
+   
+  </li>
+</ul>
+
+  </div>
+
+
+
+    <div id="myTabContent" class="tab-content">
+
+     <div class="tab-pane fade" id="function">
+
+	 
+	 <div class="row mt30" >
+         <?php
+         //获取自定义常见问题类型列表
+         $args = array( 'post_type' => 'function_mode',   'order' => 'ASC','posts_per_page' => -1 );
+         $loop = new WP_Query( $args );
+         while ( $loop->have_posts() ) : $loop->the_post();
+         ?>
+         <div class="col-xs-12 col-sm-6 col-md-6">
+		 
+		 
+		 <div class="col-xs-1 col-sm-1 col-md-1" >
+           <span class="service-paid-fuhao"> </span>
+  </div>
+		 
+		 <div class="col-xs-6 col-sm-6 col-md-6">
+           <p> <?php the_title();?></p>
+		</div>
+		
+			 <div class="col-xs-4 col-sm-4 col-md-4">
+             <?php the_content();?>
+			</div>
+			
+         </div>
+
+         <?php
+         endwhile;
+         ?>
+
+     </div>
+
+</div>
+ <div class="tab-pane fade" id="hardwave">
+
+
+<div class="row mt30" >
+<?php
+//获取自定义常见问题类型列表
+$args = array( 'post_type' => 'dev_cost',  'order' => 'ASC', 'posts_per_page' => -1 );
+$loop = new WP_Query( $args );
+while ( $loop->have_posts() ) : $loop->the_post();
+    ?>
+    
+	
+       <div class="col-xs-12 col-sm-6 col-md-6">
+		 
+		 
+		 <div class="col-xs-1 col-sm-1 col-md-1" >
+           <span class="service-paid-fuhao"> </span>
+  </div>
+		 
+		 <div class="col-xs-6 col-sm-6 col-md-6">
+           <p> <?php the_title();?></p>
+		</div>
+		
+			 <div class="col-xs-4 col-sm-4 col-md-4">
+             <?php the_content();?>
+			</div>
+			
+         </div>
+
+  <?php endwhile;?>
+</div>
+
+     </div>
+
+
+ <div class="tab-pane fade" id="count-service">
+<div  class="row mt30">
+     <?php
+     //获取自定义常见问题类型列表
+     $args = array( 'post_type' => 'custom_service', 'order' => 'ASC','posts_per_page' => -1 );
+     $loop = new WP_Query( $args );
+     while ( $loop->have_posts() ) : $loop->the_post();
+         ?>
+             <div class="col-xs-12 col-sm-6 col-md-6">
+		 
+		 
+		 <div class="col-xs-1 col-sm-1 col-md-1" >
+           <span class="service-paid-fuhao"> </span>
+  </div>
+		 
+		 <div class="col-xs-6 col-sm-6 col-md-6">
+           <p> <?php the_title();?></p>
+		</div>
+		
+			 <div class="col-xs-4 col-sm-4 col-md-4">
+             <?php the_content();?>
+			</div>
+			
+         </div>
+		
+     <?php
+     endwhile;
+     ?>
+</div>
+
+     </div>
+
+     </div>
+
+</div>
+</div>
+<!--合理透明的价格体系-->

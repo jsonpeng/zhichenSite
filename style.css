@@ -1,0 +1,874 @@
+/*
+Theme Name:website
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: PengYun
+Author URI: https://wordpress.org/
+Description:Website for company design
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*全局样式*/
+ul li{
+   list-style: none;
+}
+
+.container h1{
+  text-align: center;
+}
+
+.container .p-content{
+    text-align: center;
+    color: black;
+}
+
+.container p{
+      color:rgb(191,191,191);
+}
+.caret{
+    display: none !important;
+}
+/*全局样式*/
+
+
+
+/*--自定义navbar及tab--*/
+
+/* 普通菜单项的颜色和背景  */
+.mynavbar .navbar-nav>li>a {
+    color: #fff;
+}
+
+/* 普通菜单项hover时的字体颜色和背景  */
+.mynavbar .navbar-nav>li>a:hover, 
+.mynavbar .navbar-nav>li>a:focus {
+    color: rgba(255,255,255,0.5);
+    background-color: transparent;
+}
+
+
+
+/* 添加navbar间距*/
+.mynavbar .navbar-nav>li{
+padding-left: 20px;
+}
+
+
+.mynavbar .nav> li:hover .dropdown-menu {display: block;}
+
+/* 当前选中菜单项的字体颜色和背景   rgba(255,255,255,0.5); */
+.mynavbar .navbar-nav>.active>a, 
+.mynavbar .navbar-nav>.active>a:hover, 
+.mynavbar .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+    
+}
+/*案例子页面导航*/
+.example-category .mynavbar .navbar-nav>li>a {
+     color: black;
+}
+
+.example-category .mynavbar .navbar-nav>li>a:hover, 
+.example-category .mynavbar .navbar-nav>li>a:focus {
+    color: rgb(26,143,246);
+    background-color: transparent;
+}
+
+
+button.navbar-toggle {
+    background-color:#fbfbfb;
+}
+
+button.navbar-toggle > span.icon-bar {
+    background-color:rgb(26,143,246)
+}
+
+/*开始自定义navbar
+.mynavbar{
+  
+
+}
+.mynavbar a{
+   color:white !important
+}
+
+.mynavbar a:hover {
+    color:black !important;background:transparent;outline:0
+} 
+
+.banner-index .mynavbar .nav >li >a:active{
+      color: black !important;
+    background-color: white;
+}
+
+.banner-index .mynavbar .nav .dropdown-menu > li >a{
+    background-color:black !important;;
+  
+}
+
+button.navbar-toggle {
+    background-color:#fbfbfb;
+}
+
+button.navbar-toggle > span.icon-bar {
+    background-color:rgb(26,143,246)
+}
+*/
+/*结束自定义navbar*/
+
+
+/*!important强制取代 但不推荐使用*/
+/*开始自定义tab颜色*/
+.nav-tabs {
+    border-bottom: 1px solid rgb(26,143,246) !important;
+}
+
+/*
+.nav li a {
+color: rgb(188,188,188) !important;
+}
+*/
+
+.tab .nav-tabs li.active a, .tab .nav-tabs li.active a i {
+border: 0 none !important;
+background:#e67e22 !important;
+color: #fff !important;
+}
+.nav-tabs li a:hover {
+    border-color: rgb(26,143,246) !important;
+}
+
+.nav li a:focus, .nav li a:hover {text-decoration: none;background-color:white;} 
+
+.nav-tabs li.active a, .nav-tabs li.active a:focus, .nav-tabs li.active a:hover {
+    color: rgb(26,143,246) !important;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid rgb(26,143,246) !important;
+    border-bottom-color: white !important;
+    border-top-width: 2px;
+}
+
+.example-content-tab .nav-tabs>li{
+    float: none;
+    margin-bottom: -1px;
+    display: inline-block;
+} 
+
+/*结束自定义tab颜色*/
+
+/*--自定义navbar及tab--*/
+
+
+.banner-index-title{
+    padding-top:30px;
+}
+
+/*需要响应式控制*/
+.company-logo{
+    margin-left: 400px;
+    margin-right: 300px;
+    color: white;
+    width: 130px;
+    height: 32px;
+    letter-spacing: 3px;
+}
+
+
+
+
+/*需要响应式控制*/
+
+
+/*首页导航下的文本*/
+/*需要响应式控制*/
+.banner-index{
+    background: url("../images/banner.jpg") ;
+    min-height:794px;
+    max-width:100%
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.example-category{
+     background: url("") ;
+       min-height:100%;
+      
+}
+
+.banner-index-content{
+    padding-top: 100px;
+    margin-left: 400px;
+    margin-right: 200px;
+}
+
+.banner-index-content h1,h2,p,button{
+    color: white;
+}
+
+.banner-index-content h2{
+    color: white;
+   font-size: 18px;
+   padding-bottom: 10px;
+}
+
+
+.banner-index-content p{
+   font-size: 10px;
+}
+
+.banner-index-content #p4{
+    padding-bottom: 20px;
+}
+
+.baner-index-content-button-padding{
+    border:1px white solid; 
+    text-align:center;
+    padding: 8px 30px;
+    background-color: white;
+}
+
+.banner-index-content button a{
+   color: rgb(26,143,246);
+   font-size: 18px;
+}
+
+
+/*需要响应式控制*/
+/*首页导航下的文本*/
+
+
+.banner-index-content-service {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.banner-index-content-service h4,.comunication-content h4,.service-paid p{
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+
+.banner-index-content-bottom{
+    padding-bottom: 50px;
+}
+
+.banner-index-content-communication{
+background-color: rgb(243,247,248);
+min-height: 520px;
+}
+
+.banner-index-content-communication h2{
+color: black !important;
+}
+
+.banner-index-content-communication-white{
+background-color: rgb(255,255,255);
+min-height: 520px;
+}
+
+.banner-service-content {
+min-height: 400px;
+
+}
+
+.comunication-content{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+.comunication-content h1{
+text-align: center;
+}
+
+
+/*作品*/
+.banner-index-production{
+min-height: 200px;
+}
+
+.banner-index-production h1{
+    padding-top: 80px;
+    text-align: center;
+}
+
+
+.banner-index-production-img img{
+width: 19.8%;
+height: 100%;
+}
+
+.banner-index-production-img img:hover {
+ opacity: 0.9; 
+color: #fff; 
+background: rgba(0,0,0,0.8); 
+
+}
+/*作品*/
+
+/*常见问题*/
+
+.banner-index-question-content{
+    position: relative;
+}
+
+.banner-index-question-icon-close{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: 510px;
+    margin-top: -40px;
+    background: url("../images/question_close.png");
+}
+
+.banner-index-question-icon-open{
+     width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: 510px;
+    margin-top: -40px;
+    background: url("../images/question_open.png");
+}
+
+
+
+.banner-index-question-content p{
+    font-size: 20px;
+}
+
+.blue h4{
+    font-color:rgb(26,143,246) !important;
+}
+/*常见问题*/
+
+/*怎样合作*/
+.communication{
+    background-color: rgb(243,247,248);
+    min-height: 240px;
+}
+
+.communication_content{
+    padding-top: 50px;
+}
+
+.communication_content p{
+    color: black;
+}
+
+.communication_icon{
+    padding-top: 90px;
+
+   
+}
+
+.baner-index-content-button-communication{
+    border-radius: 5px;
+    border:1px rgb(26,143,246) solid; 
+    text-align:center;
+    padding: 10px 10px;
+    background-color:  rgb(26,143,246);
+    margin-right: 20px;
+    box-shadow: 0 5px 5px rgb(213,218,220); 
+
+}
+
+.button-phone{
+ padding: 10px 64px 10px 10px;
+}
+
+.baner-index-content-button-communication a{
+    color: white;
+}
+
+.box1{
+     border:1px white solid; 
+    text-align:center;
+    padding: 8px 30px;
+    background-color:  rgb(26,143,246);
+
+}
+
+.box2{
+    border:1px white solid; 
+    text-align:center;
+    padding: 8px 30px;
+    background-color:  rgb(26,143,246);
+
+}
+
+ .box3{
+     border:1px white solid; 
+    text-align:center;
+    padding: 8px 30px;
+    background-color:  rgb(26,143,246);
+
+}
+/*怎样合作*/
+
+
+
+
+/*开始案例*/
+.example-content{
+    width: 100%;
+    min-height: 100%;
+}
+
+.example-content-tab{
+    padding-top: 30px;
+   text-align: center;
+}
+.tab-content p{
+    color: black;
+}
+.example-content-tab-row{
+     padding-top: 30px;
+    margin-left: 13.3%;
+}
+
+.example-content-tab-row-imgandcontent{
+    width: 33.3%;
+    position: relative;
+
+}
+
+
+
+.example-content-img-padding{
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+.example-content-img{
+   
+}
+
+
+.example-pc{
+    height: 100%;
+    padding-bottom: 40px;
+}
+.example-content-tab-row-pc{
+    width: 300px;
+    height: 80px;
+    
+    margin-left: 0px;
+    margin-top: 0px;
+   background-color: rgb(243,247,248);
+}
+
+
+.example-content-title{
+    padding-left: 23.3%;
+    width:20px;
+    line-height:24px;
+    position: absolute;
+}
+
+.example-content-img-description{
+    width: 120px;
+    height: 400px;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: -400px;
+   background-color: rgb(243,247,248);
+}
+
+
+
+.example-content-tab-row-button{
+    border:1px rgb(26,143,246) solid; 
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(26,143,246);
+    text-align: center;
+    border-radius:8px;
+    box-shadow: 0 5px 5px rgb(213,218,220); 
+}
+
+.example-content-tab-row-button .example-content-all-button{
+    color: white;
+    padding-left: 0px;
+}
+
+.example-content-tab-row a{
+    padding-left: 35px;
+    color: black;
+}
+
+.example-content-img-link{
+    padding-left: 0px !important;
+    font-size: 25px;
+}
+
+.example-h5-img {
+    padding: 0px 30px 30px 0px;
+    width: 33%;
+}
+
+
+.example-content-img-description-rightrow{
+margin-top:23.3%; 
+margin-left: 56.3%;
+position: absolute;
+}
+
+
+.example-content-qr{
+margin-top:230px;
+margin-left: 10px;
+}
+
+.example-content-pagination{
+    padding-left: 33.3%;
+}
+
+
+
+
+.example-pc-img-padding{
+    padding-bottom:50px;
+}
+
+.example-content-pc-num {
+text-align: left;
+margin-right: 296px;
+position: absolute;
+}
+
+.example-content-pc-num-content{
+    margin-top: -10px;
+    margin-left: 88px;
+    position: absolute;
+}
+
+.example-content-pc-num-fuhao{
+    margin-left: 62px;
+    padding-top: 18px;
+    position: absolute;
+}
+
+.example-content-pc-add{
+    margin-left: 214px;
+    margin-top: 8px;
+    position: absolute;
+  }
+
+/*结束案例*/
+
+
+/*
+h5业务
+ */
+.service-h5-content{
+padding-top: 50px
+}
+
+.service-h5-content h3{
+    text-align: center;
+}
+.service-h5-phone-white{
+    text-align: center;
+    background:url("../images/h5_iphone_white.png");
+    width: 100%;
+    height: 100%
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.service-h5-phone-gray{
+    text-align: center;
+    background:url("../images/h5_iphone_gray.png");
+    width: 100%;
+    height: 100%
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*开始业务介绍*/
+.service{
+     background: rgb(26,143,246); 
+    min-height:504px;
+    max-width:100%
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.service-responsive-bg{
+    width: 100%;
+    height: 100%;
+    background: url("../images/responsive-bg.png");
+}
+
+.service-paid{
+  background: rgb(243,247,248); 
+  height: 100%;
+}
+
+.service-row-padding{
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.service-paid p{
+    text-align: center;
+}
+
+.service-example{
+    background: url("../images/service-example-bg.jpg") ;
+    min-height:794px;
+    max-width:100%
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#hardwave p{
+    padding-top: 30px;
+}
+
+.service-example-img img{
+    padding-top: 30px;
+    margin-left: 30px;
+    width: 30.3%;
+}
+
+/*结束业务介绍*/
+
+
+/*
+新闻
+ */
+.news-airticle{
+    margin-left: 23.3%;
+}
+.news-airticle-title-tag{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.news-airticle-content{
+    padding-bottom: 40px;
+}
+
+.news-airticle-sep{
+    padding-top: 30px;
+}
+ 
+ .news-airticle-img {
+    float: right;
+    margin-top: -150px;
+}
+
+/*新闻单页样式*/
+.news-single-title{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.news-single-img{
+padding-top: 70px;
+}
+
+.news-single-title p{
+color: black;
+}
+/*关于我们 页首同样适用于案例*/
+ .about{
+    background: url("../images/about-bg.jpg"); ;
+    min-height:504px;
+    max-width:100%
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.news{
+    background: url("../images/news-bg.jpg"); ;
+    min-height:504px;
+    max-width:100%
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.example{
+    background: url("../images/example-bg.jpg"); ;
+    min-height:504px;
+    max-width:100%
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.service{
+    background: url("../images/service-bg.jpg"); ;
+    min-height:504px;
+    max-width:100%
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.about-content {
+padding-top: 60px;
+margin:0 auto;
+}
+
+.about-content h1{
+    color: white;
+    font-size: 46px;
+    padding-bottom: 20px;
+}
+.about-content h3{
+    color: white;
+}
+
+.about-content h2{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+
+.about-content .service-button{
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    border:1px white solid; 
+    text-align:center;
+    padding:10px 30px 10px 30px;
+    background-color:transparent;
+    margin-left: 43.3%; 
+   
+}
+
+.about-content button a{
+color: white;
+}
+
+.about-content p{
+color: white;
+text-align: center;
+}
+
+.about-communication{
+padding-top: 30px;
+text-align: center;
+}
+
+
+.about-communication ul li,h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+/*关于我们 页首同样适用于案例*/
+
+
+/*website footer网站页尾 需要响应式控制*/
+.footer-container{
+    width: 33.3%;
+}
+
+.website_footer1{
+    background-color: rgb(40,45,48);
+    height: 60px;
+    width:100%;
+}
+
+.back-top{
+    padding-left: 25px;
+    padding-top: 20px;
+    margin-top: -15px;
+    min-height: 58px;
+    max-width: 120px;
+    background-color: rgb(0,110,189);
+}
+
+.website_footer1 .col-md-2 p{
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+
+.website_footer2{
+    padding:10px 0px 0px 140px;
+    background-color: rgb(50,54,57);
+    height: 100%;
+
+
+}
+
+.website_footer2-container{
+margin-top: -55px;
+
+}
+
+.website_footer2  ul{
+   padding-left: 0px;
+    padding-top: 30px;
+   }
+
+
+.website_footer2 p{
+     margin-left: 94px;
+    color: white;
+}
+
+.website_footer2  ul li{
+    padding-bottom:15px;
+    list-style: none;
+    color: #888888;
+}
+
+.website_footer2 ul li:hover,.website_footer2 ul li>a:hover{
+    color:white !important;
+}
+
+.website_footer2 img{
+    margin-top:2px;
+    margin-left: 94px;
+}
+
+
+
+.website_footer2_wechat_bg{
+    background: url('../images/wechat-common-num.jpg');
+    width: 115px;
+    height: 107px;
+}
+
+.website_footer2 .footer-wechat{
+    margin-left: 102px;
+    color: white;
+}
+/*website footer网站页尾 需要响应式控制*/
+
+
+
